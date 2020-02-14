@@ -9,7 +9,7 @@ const SearchPage = () => {
 
     const getPosts = () => {
         if (subCategory) {
-            fetch(`http://serfsver.herokuapp.com/listing/${category}/${subCategory}`, {
+            fetch(`https://serfsver.herokuapp.com/listing/${category}/${subCategory}`, {
                 method: 'GET',
             })
                 .then(response => {
@@ -20,7 +20,7 @@ const SearchPage = () => {
                     setPosts(result)
                 })
         } else if (category) {
-            fetch(`http://serfsver.herokuapp.com/listing/${category}`, {
+            fetch(`https://serfsver.herokuapp.com/listing/${category}`, {
                 method: 'GET',
             })
                 .then(response => {
@@ -31,7 +31,7 @@ const SearchPage = () => {
                     setPosts(result)
                 })
         } else {
-            fetch(`http://serfsver.herokuapp.com/listing`, {
+            fetch(`https://serfsver.herokuapp.com/listing`, {
                 method: 'GET',
             })
                 .then(response => {
