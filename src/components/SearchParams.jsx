@@ -34,8 +34,8 @@ const SearchParams = () => {
                 <form className="search-params">
                     <label>Arpents from Village</label>
                     <span className="search-form">
-                        <input type="text" placeholder="arpents" />
-                        <input type="text" placeholder="from village" />
+                        <input type="text" placeholder="arpents" className="search-input"/>
+                        <input type="text" placeholder="from village" className="search-input"/>
                     </span>
                 </form>
             </div>
@@ -43,54 +43,54 @@ const SearchParams = () => {
                 <h3>Sort Results</h3>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>sort param</label>
+                    <label>fiefs</label>
                 </span>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>sort param</label>
+                    <label>manors</label>
                 </span>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>sort param</label>
+                    <label>kingdoms</label>
                 </span>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>sort param</label>
+                    <label>farms</label>
                 </span>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>sort param</label>
+                    <label>villages</label>
                 </span>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>sort param</label>
+                    <label>hovels</label>
                 </span>
             </div>
             <div className="search-params">
                 <h3>Categories</h3>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>category</label>
+                    <label>events</label>
                 </span>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>category</label>
+                    <label>jobs</label>
                 </span>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>category</label>
+                    <label>services</label>
                 </span>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>category</label>
+                    <label>community</label>
                 </span>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>category</label>
+                    <label>housing</label>
                 </span>
                 <span className="search-form">
                     <input type="checkbox" />
-                    <label>category</label>
+                    <label>for sale</label>
                 </span>
             </div>
         </div>
