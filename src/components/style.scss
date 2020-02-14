@@ -98,7 +98,7 @@ nav {
   .search-area {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 10%;
     height: 100vh;
   }
@@ -115,6 +115,10 @@ nav {
     flex-direction: row;
     width: 100%;
   }
+  .search-input {
+      width: 50%;
+  }
+
   .search-page {
     display: flex;
     flex-direction: row;
